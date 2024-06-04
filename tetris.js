@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let score1 = 0;
     let score2 = 0;
 
+    // The function resizeCanvas resizes the canvas.
+    // It takes no input.
+    // It produces no output.
     function resizeCanvas() {
         const containerHeight = window.innerHeight - 100;
         const boardWidth = containerHeight / ROWS * COLS;
